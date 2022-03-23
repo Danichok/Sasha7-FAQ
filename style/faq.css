@@ -177,10 +177,19 @@ body {
     .container {
         width: 330px;
     }
+    .footer li {
+        width: 400px;
+    }
 }
 
 @media (max-width:380px) {
     .container {
         width: 265px;
+    }
+    .footer_body {
+        width: 327px;
+    }
+    .footer li {
+        width: 350px;
     }
 }
