@@ -11,10 +11,7 @@ $('#member').click(function() {
     $('.member_window').toggleClass('member_window_close');
 });
 
-if ($(window).width() < 630) {
-    $('#member').attr("href", "membership.html");
 
-}
 
 if ($(window).width() < 980) {
     $('#member').attr("href", "membership.html");
