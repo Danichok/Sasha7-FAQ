@@ -211,6 +211,12 @@ section {
     .features_links {
         width: 525px;
     }
+    .container_member {
+        width: 7150px;
+    }
+    .page_adaptive {
+        display: none;
+    }
 }
 
 @media (max-width:700px) {
@@ -223,7 +229,7 @@ section {
     }
     .plot {
         text-align: start;
-        font-size: 40px;
+        font-size: 35px;
     }
     .help_window {
         width: 400px;
@@ -258,11 +264,16 @@ section {
     .spoiler_open {
         height: 114px;
     }
+    .back_button_page {
+        padding-left: 117px;
+    }
 }
 
 @media (max-width:400px) {
     .container {
         width: 360px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .plot_page {
         font-size: 45px!important;
@@ -273,6 +284,11 @@ section {
     .spoiler_body p {
         margin-top: 39px;
     }
+    .container_page {
+        margin: 0 auto;
+        width: 420px;
+        margin-left: -66px;
+    }
 }
 
 @media (max-width:380px) {
@@ -281,9 +297,6 @@ section {
     }
     .footer li {
         width: 350px;
-    }
-    .back_button_page {
-        padding-left: 117px;
     }
     .features_window_page {
         margin-top: 0;
