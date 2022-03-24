@@ -10,9 +10,6 @@ $('#member').click(function() {
     $('.features_window').addClass('features_window_close')
     $('.member_window').toggleClass('member_window_close');
 });
-
-
-
 if ($(window).width() < 980) {
     $('#member').attr("href", "membership.html");
     $('#features').attr("href", "features.html");
