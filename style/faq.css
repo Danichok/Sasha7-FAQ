@@ -312,7 +312,7 @@ section {
     }
     .container_page {
         margin: 0 auto;
-        width: 100%;
+        width: 95%;
         margin-left: -85px;
     }
     .back_button {
@@ -344,6 +344,9 @@ section {
     }
     .help_general {
         width: 368px;
+    }
+    .container_member {
+        width: 95%;
     }
 }
 
