@@ -193,13 +193,26 @@ section {
     margin: 0 auto;
 }
 
+.container_member {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container_contact {
+    margin-left: 200px;
+}
+
 @media (max-width:980px) {
     .container {
         width: 400px;
         margin: 0 auto;
     }
     .container_page {
-        width: 760px;
+        width: 100%;
         margin: 0 auto;
     }
     .spoiler_open {
@@ -212,10 +225,13 @@ section {
         width: 525px;
     }
     .container_member {
-        width: 7150px;
+        width: 90%;
     }
     .page_adaptive {
         display: none;
+    }
+    .container_contact {
+        margin: 0 auto;
     }
 }
 
@@ -232,10 +248,7 @@ section {
         font-size: 35px;
     }
     .help_window {
-        width: 400px;
-    }
-    .help_general {
-        margin-left: 0;
+        width: 100%;
     }
     .help_link {
         font-size: 25px;
@@ -267,27 +280,70 @@ section {
     .back_button_page {
         padding-left: 117px;
     }
+    .spoiler_body p {
+        width: 88%;
+        font-size: 25px;
+    }
+    .spoiler_body {
+        margin-top: 60px;
+    }
+    .member_window {
+        margin-top: 50px;
+    }
+    .features_window {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width:400px) {
     .container {
-        width: 360px;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 100%;
     }
     .plot_page {
-        font-size: 45px!important;
+        font-size: 25px!important;
     }
     .spoiler_open {
         height: 112px;
     }
     .spoiler_body p {
-        margin-top: 39px;
+        margin-top: 50px;
+        font-size: 16px;
+        width: 92%;
     }
     .container_page {
         margin: 0 auto;
-        width: 420px;
-        margin-left: -66px;
+        width: 100%;
+        margin-left: -85px;
+    }
+    .back_button {
+        font-size: 16px;
+    }
+    .features_links {
+        width: 329px;
+        font-size: 17px;
+    }
+    .features_window_page {
+        width: 100%;
+    }
+    .features_link {
+        font-size: 17px;
+    }
+    .spoiler_body {
+        margin-top: 5px;
+    }
+    .spoiler_body a {
+        font-size: 14px;
+    }
+    .help_window_contact {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .help_window {
+        width: 370px;
+    }
+    .help_general {
+        width: 368px;
     }
 }
 
